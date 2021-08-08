@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-basics",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -14,16 +14,25 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.9.1",
+    "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-plugin-styled-components": "^4.10.0",
+    "gatsby-source-filesystem": "^3.10.0",
+    "gatsby-transformer-sharp": "^3.10.0",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "prettier": "2.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com:A-jha/React-Gatsby-2021.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
