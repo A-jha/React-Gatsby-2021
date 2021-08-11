@@ -32,3 +32,32 @@ gatsby new <project-name> <then link of ripository given by gastby>
 - **gatsby serve** - serve previously build gatsby site.
 - **gatsby info** - Get environment information for debugging and issue reporting
 - **gatsby clean** - Wipe local gatsby env including assets and cache.
+
+### Folder Strcture
+
+```
+|--Public
+|    |---page-data
+|    |       |--dev-404-page
+|    |       |       |--page-data.json
+|    |       |
+|    |       |--index
+|    |       |     |--page-data.json
+|    |
+|    |--Static
+|    |
+|    |--render-page.js
+|    |
+|    |--render-page.js.map
+|
+|--src**
+|    |--Pages
+|        |
+|        |--index.js
+|
+|-- Static
+|
+|-- gatstatiby-config.js
+|
+|-- package.json
+```
