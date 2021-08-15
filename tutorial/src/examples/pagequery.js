@@ -12,7 +12,6 @@ const ComponentName = ({ data }) => {
           </h3>
         )
       })}
-      <h3></h3>
     </div>
   )
 }
