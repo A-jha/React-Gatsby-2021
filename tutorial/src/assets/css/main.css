@@ -500,7 +500,9 @@ form > *:last-child {
   border-radius: var(--borderRadius);
   height: 500px;
 }
-
+.featured-recipes {
+  padding-top: 30px;
+}
 @media screen and (min-width: 992px) {
   .about-page {
     grid-template-columns: 1fr 1fr;

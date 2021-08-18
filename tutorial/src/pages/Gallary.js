@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
-import AllRecepes from "../components/AllRecepes"
+
+import Gallary from "../examples/Gallary"
+
 const Test = () => {
   return (
     <Layout>
-      <AllRecepes />
+      <main className="page">
+        <Gallary />
+      </main>
     </Layout>
   )
 }
-
 export default Test
